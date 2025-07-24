@@ -1,0 +1,11 @@
+venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.dll
+*.lib
+ffmpeg.exe

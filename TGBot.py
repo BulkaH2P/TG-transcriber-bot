@@ -8,7 +8,7 @@ URL = os.getenv("WEBHOOKURL")
 TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
-model = whisper.load_model("small")
+model = whisper.load_model("base")
 
 
 @app.route('/', methods=['GET'])
